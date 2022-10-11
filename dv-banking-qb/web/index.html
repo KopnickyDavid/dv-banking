@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <link rel="stylesheet" href="index.css">
+      <script src="https://kit.fontawesome.com/9ca3688eb8.js" crossorigin="anonymous"></script>
+   </head>
+   <body id="body">
+      <div id="container" class="container">
+         <div id="navigation" class="navigation">
+            <div id="navigation-icons" class="navigation-icons">
+               <center>
+                  <i onclick="Home()" class="fa-solid fa-house"></i>
+                  <i onclick="Logs()" class="fa-solid fa-scroll"></i>
+                  <i onclick="Accounts()" class="fa-solid fa-vault"></i>
+                  <div id="mode-icon" onclick="changeMode()"> <i class="fa-solid fa-moon"></i></div>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <i onclick="HideAll()" class="fa-solid fa-circle-xmark"></i>
+
+               </center>
+            </div>
+         </div>
+         <div id="page-2" class="page-2">
+            <div id="saving-account" class="saving-account">
+               <center>
+                  <span id="saving-account-title" class="saving-account-title">Saving account</span>
+                  <div id="saving-account-balance" class="saving-account-balance">
+                     <span id="saving-account-balance-number" class="saving-account-balance-number">15000000000$</span>
+                  </div>
+                  <div class="saving-account-actions">
+                     <div class="saving-account-deposit">
+                        <button onclick="SavingDeposit()" class="saving-account-deposit-button" id="saving-account-deposit-button">Deposit to account</button>
+                     </div>
+                     <div class="saving-account-withdraw">
+                        <button onclick="SavingWithdraw()" class="saving-account-withdraw-button" id="saving-account-withdraw-button">Withdraw from account</button>
+                     </div>
+                  </div>
+               </center>
+            </div>
+         </div>
+         <div id="logs" class="logs">
+            <div id="log-header" class="log-header">
+               <span class="log-header-text"> Banking Logs</span> 
+            </div>
+            <div id="log-container" class="log-container">
+               <div id="log-list"></div>
+            </div>
+         </div>
+         <div id="page-1">
+            <div id="actions" class="actions">
+               <h2>Actions</h2>
+               <button id="button-w" onclick="withdraw()">Withdraw</button>
+               <button id="button-d" onclick="deposit()">Deposit</button>
+               <button id="button-t" onclick="transfer()">Transfer</button>
+            </div>
+            <div id="main" class="main">
+               <div id="name" class="name">Hello, David </div>
+               <div id="offline" class="offline">
+                  <span class="offlinecount-text">Transactions</span>
+                  <span id="offlinecount" class="offlinecount">15</span>
+               </div>
+               <div id="balance" class="balance">
+                  <span class="balancecount-text">Bank</span>
+                  <span id="balancecount" class="balancecount">150 000 $</span>
+               </div>
+               <div id="online" class="online">
+                  <span class="onlinecount-text">Account number</span>
+                  <span id="acnumber" class="onlinecount">543251</span>
+               </div>
+            </div>
+         </div>
+         <center>
+            <div class="withdraw-show" id="withdraw-show">
+               <div id="withdraw-show-text" class="withdraw-show-text">
+                  Withdraw 
+               </div>
+               <input class="withdraw-input" id="withdraw-input" type="number" placeholder="Enter how much $ you want to withdraw">
+               <button class="withdraw-show-button" id="withdraw-show-button" onclick="Withdraw()">Submit</button>
+            </div>
+         </center>
+         <center>
+            <div class="deposit-show" id="deposit-show">
+               <div id="deposit-show-text" class="deposit-show-text">
+                  Deposit 
+               </div>
+               <input class="deposit-input" id="deposit-input" type="number" placeholder="Enter how much $  you want to deposit">
+               <button class="deposit-show-button" id="deposit-show-button" onclick="Deposit()">Submit</button>
+            </div>
+         </center>
+         <center>
+            <div class="sw" id="sw">
+               <div id="sw-text" class="sw-text">
+                  Withdraw 
+               </div>
+               <input class="sw-input" id="sw-input" type="number" placeholder="Enter how much $ you want to withdraw from savings">
+               <button class="sw-button" id="sw-button" onclick="SavingWithdrawSubmit()">Submit</button>
+            </div>
+         </center>
+         <center>
+            <div class="sd" id="sd">
+               <div id="sd-text" class="sd-text">
+                  Deposit 
+               </div>
+               <input class="sd-input" id="sd-input" type="number" placeholder="Enter how much $  you want to deposit">
+               <button class="sd-button" id="sd-button" onclick="SavingDepositSubmit()">Submit</button>
+            </div>
+         </center>
+         <center>
+            <div class="transfer-show" id="transfer-show">
+               <div id="transfer-show-text" class="transfer-show-text">
+                  Transfer 
+               </div>
+               <input class="transfer-input" id="transfer-input-ac" type="number" placeholder="Enter target id">
+               <input class="transfer-input" id="transfer-input-m" type="number" placeholder="Enter how much $  you want to transfer">
+               <button class="transfer-show-button" id="transfer-show-button" onclick="Transfer()">Submit</button>
+            </div>
+         </center>
+      </div>
+   </body>
+   <script src="index.js"></script>
+</html>

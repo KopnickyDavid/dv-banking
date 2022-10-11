@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Balinese&display=swap');
+
+body {
+    align-content: center;
+}
+.page-2 {
+    height: 100%;
+    left: 8%;
+    width: 90%;
+    position: absolute;
+    top: 0%;
+}
+.saving-account-title {
+    text-align: center;
+    font-family: 'Noto Serif Balinese', serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+.saving-account {
+    left: 30.5%;
+    display: inline-block;
+    position: relative;
+    top: 5%;
+    height: 90%;
+    width: 40%;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.saving-account-balance {
+position: relative;
+top: 100px;
+ background-color: #FBE8DA;
+ width: 90%;
+ height: 100px;
+ border-radius: 5px;
+ text-align: center;
+}
+.saving-account-balance-number {
+    position: relative;
+    font-family: 'Noto Serif Balinese', serif;
+    font-weight: bold;
+    font-size: 35px;
+    top: 25px
+}
+.saving-account-deposit-button,.saving-account-withdraw-button {
+    width: 90%;
+    top: 250px;
+    height: 50px;
+    border-radius: 5px;
+}
+.logs {
+    height: 100%;
+    left: 8%;
+    width: 90%;
+    position: absolute;
+    top: 0%;
+}
+.log-header{
+    position: relative;
+    top: 3%;
+    left: 5%;
+    width: 90%;
+    height: 10%;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Noto Serif Balinese', serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+.log-header-text {
+    position: relative;
+    top: 10px;
+}
+.log-container{
+    position: relative;
+    top: 6%;
+    left: 5%;
+    width: 90%;
+    height: 80%;
+    background-color: white;
+    border-radius: 5px;
+    overflow: auto;
+    font-family: 'Noto Serif Balinese', serif;
+    font-weight: bold;
+}
+.logging {
+    cursor: pointer;
+    background: #FBE8DA;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 5%;
+    width: 90%;
+    height: 75.6px;
+    max-height: 15%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    overflow: hidden;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+.logging-icon {
+    position: relative;
+    top: -20%;
+    left: 2%;
+    color: black;
+    font-size: 25px;
+}
+.logging-title {
+    position: relative;
+    top: -60%;
+    left: 8%;
+    font-size: 25px;
+    color: black;
+}
+.logging-amount {
+    position: relative;
+    top: -92%;
+    color: black;
+    font-size: 25px;
+    border-radius: 3px;
+    right: -80%;
+
+}
+
+.container {
+    position: absolute;
+    width: 65%;
+    height: 70%;
+    background-color: rgb(245, 242, 242);
+    border-radius: 5px;
+    left: 338.08px;
+    top: 99px;
+}
+.navigation {
+    position: relative;
+    height: 100%;
+    width: 7%;
+    border-radius: 5px;
+    background-color: white;
+}
+.navigation-icons {
+    position: relative;
+    top: 10%;
+    align-content: center;
+    font-size: 30px;
+}
+
+i {
+    margin-top: 40px;
+    width: 100%;
+    cursor: pointer;
+
+}
+i:hover{
+   color: rgb(48, 134, 221);
+}
+.main {
+    position: absolute;
+    width: 70%;
+    height: 50%;
+    max-height: 70%;
+    max-width: 70%;
+    right: 12%;
+    top: 5%;
+    background-color: white;
+    border-radius: px;
+}
+.first {
+    position: relative;
+    top: 5%;
+    left: 4%;
+    width: 35%;
+    height: 25%;
+    background-color: #FBE8DA;
+    border-radius: 5px;
+    text-align: left;
+    font-family: 'Noto Serif Balinese', serif;
+    font-weight: bold;
+    font-size: 35px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+}
+.name{
+    position: relative;
+    left: 3%;
+    top: 3%;
+    font-family: 'Noto Serif Balinese', serif;
+    font-weight: bold;
+    font-size: 35px;
+      
+}
+.job {
+    position: relative;
+    top: 23.525px;
+    left: 57.9px;
+}
+.offline {
+    position: relative;
+    top: 30%;
+    left: 4%;
+    width: 20%;
+    height: 35%;
+    background-color: #FBE8DA;
+    border-radius: 5px;
+    text-align: left;
+    font-family: 'Noto Serif Balinese', serif;
+    font-weight: bold;
+    font-size: 35px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    text-align: center;
+}
+.offlinecount{
+    position: relative;
+    top: 30%;
+    left: -27%;
+}
+.offlinecount-text {
+    position: relative;
+    font-size: 15px;
+    top: -15%;
+    left: 11%;
+}
+.balance {
+    position: relative;
+    top: -5%;
+    left: 30%;
+    width: 35%;
+    height: 35%;
+    background-color: #FBE8DA;
+    border-radius: 5px;
+    text-align: left;
+    font-family: 'Noto Serif Balinese', serif;
+    font-weight: bold;
+    font-size: 35px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    text-align: center;
+    align-content: center;
+}
+.balancecount{
+    position: relative;
+    top: 40%;
+    left: -12%;
+}
+.balancecount-text {
+    position: relative;
+    font-size: 25px;
+    top: 0%;
+    left: 57px;
+}
+.online {
+    position: relative;
+    top: -40%;
+    left: 72%;
+    width: 20%;
+    height: 35%;
+    background-color: #FBE8DA;
+    border-radius: 5px;
+    text-align: left;
+    font-family: 'Noto Serif Balinese', serif;
+    font-weight: bold;
+    font-size: 35px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    text-align: center;
+}
+.onlinecount{
+    position: absolute;
+    top: 30%;
+    left: 17%;
+}
+.onlinecount-text {
+    position: relative;
+    font-size: 15px;
+    top: -15%;
+    left: 0%;
+}
+
+
+
+.actions{
+    position: absolute;
+    width: 70%;
+    height: 37%;
+    right:  12%;
+    top: 59%;
+    background-color: white;
+    border-radius: 5px;   
+text-align: center;
+}
+button{
+    position: relative;
+    top: -70px;
+    width: 50%;
+    height: 40px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+    font-family: 'Noto Serif Balinese', serif;
+    font-weight: bold;
+    background-color: #FBE8DA;
+    font-size: 15px;
+text-align: center;
+}
+h2{
+    position: relative;
+    top: -20px;
+    font-size: 35px;
+    font-family: 'Noto Serif Balinese', serif;
+    font-weight: bold;
+}
+button:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
+
+.withdraw-show,.deposit-show,.sw,.sd {
+    overflow: hidden;
+    position: relative;
+    bottom: 400px;
+    width: 50%;
+    height: 150px;
+    background-color: white;
+    border-radius: 5px;
+    border: 5px solid rgb(159, 155, 155);
+}
+.withdraw-show-text, .deposit-show-text,.sw-text,.sd-text{
+    font-family: 'Noto Serif Balinese', serif;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+.withdraw-show-button,.deposit-show-button,.sw-button,.sd-button {
+    cursor: pointer;
+    position: relative;
+    top: 0%;
+    height: 25%;
+    width: 95%;
+    border-radius: 7px;
+    background-color: #FBE8DA;
+    color: black;
+    font-size: 20px;
+}
+.withdraw-show-button:hover,.deposit-show-button:hover,.sw-button:hover,.sd-button:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
+.withdraw-input,.deposit-input,.sw-input,.sd-input {
+    margin-top: -5%;
+ width: 95%;
+ height: 20%;
+border: 5px solid #FBE8DA;
+border-radius: 5px;
+text-align: center;
+}
+
+.transfer-show {
+    overflow: hidden;
+    position: relative;
+    bottom: 400px;
+    width: 50%;
+    height: 250px;
+    background-color: white;
+    border-radius: 5px;
+    border: 5px solid rgb(159, 155, 155);
+}
+.transfer-show-text{
+    overflow: hidden;
+    font-family: 'Noto Serif Balinese', serif;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+.transfer-show-button {
+    overflow: hidden;
+
+    cursor: pointer;
+    position: relative;
+    top: 0%;
+    height: 25%;
+    width: 95%;
+    border-radius: 7px;
+    background-color: #FBE8DA;
+    color: black;
+    font-size: 20px;
+}
+.transfer-show-button:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
+.transfer-input {
+    margin-top: 1%;
+ width: 95%;
+ height: 13%;
+border: 5px solid #FBE8DA;
+border-radius: 5px;
+text-align: center;
+}
